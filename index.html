@@ -180,4 +180,21 @@ However, the content in the right side has been copied from the freeCodeCamp Cer
             You cannot declare a constant with the same name as a function or
             variable in the same scope. For example:
           </p>
-
+          <code
+            >// THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS
+            WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g;
+            //statements }</code
+          >
+          <p>
+          However, object attributes are not protected, so the following
+          statement is executed without problems.</p>
+          <code
+            >const MY_OBJECT = {"key": "value"}; MY_OBJECT.key =
+            "otherValue";</code
+          >
+      </article>
+    </section>
+  </main>
+  </div>
+</body>
+</html>
