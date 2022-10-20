@@ -61,3 +61,18 @@ body
   padding-right:50px;
   text-align:justify;
 }
+
+p,main ul
+{
+  font-size:20;
+}
+
+code
+{
+  font-size:15;
+  background-color:rgba(255,255,125,0.5);
+}
+.main-section header
+{
+  margin-top:5px;
+}
