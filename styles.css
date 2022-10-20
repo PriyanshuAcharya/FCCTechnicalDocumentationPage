@@ -21,3 +21,20 @@ body
 {
   color:#555555;
 }
+#navbar ul
+{
+  list-style-type:square;
+}
+
+#navbar ul li
+{
+  font-size:29;
+  margin-bottom:30px;
+  border-bottom:solid 4px;
+}
+
+#navbar ul a
+{
+  text-decoration:none;
+  color:#9911ff;
+}
