@@ -76,3 +76,18 @@ code
 {
   margin-top:5px;
 }
+
+#Global_Variables,#Variables
+{
+  margin-top:15px;
+}
+
+@media only screen and (max-width: 800px) {
+  #navbar ul li {
+    border-bottom:0.5px solid;
+  }
+  code
+  {
+    background-color:rgb(255,255,125);
+  }
+}
