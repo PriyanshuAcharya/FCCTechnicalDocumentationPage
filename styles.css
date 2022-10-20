@@ -1,0 +1,23 @@
+header
+{
+  font-size:35;
+  font-weight:bold;
+  text-decoration:underline 1.5px;
+  color:black;
+}
+
+nav header
+{
+  padding:15px;
+  font-size:39;
+}
+
+.declaration
+{
+	padding:20px;
+	color:red;
+}
+body
+{
+  color:#555555;
+}
