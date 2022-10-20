@@ -38,3 +38,26 @@ body
   text-decoration:none;
   color:#9911ff;
 }
+
+.navigation
+{
+  position:fixed;
+  min-width:290px;
+  left:0;
+  top:0;
+  height:100%;
+  width:300px;
+  border-right:solid 2px;
+}
+
+.content
+{
+  position:absolute;
+  min-width:290px;
+  top:20;
+  margin-left:10px;
+  padding-bottom:25px;
+  left:320px;
+  padding-right:50px;
+  text-align:justify;
+}
